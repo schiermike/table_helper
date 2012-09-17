@@ -1,5 +1,7 @@
 require 'table_helper/cell'
 
+require 'blankslate'
+
 module TableHelper
   # Provides a blank class that can be used to build the cells for a row
   class RowBuilder < BlankSlate #:nodoc:
